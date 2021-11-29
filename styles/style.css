@@ -1,0 +1,144 @@
+* {
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+.container {
+max-width: 1500px;
+width: 100%;
+/* padding-top: 27px; */
+}
+.slide-area {
+    max-width: 1500px;
+    width: 20%;
+}
+/* started sliders */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+background-color: #717171;
+}
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+/* ended sliders */
+/* started grids */
+
+.item1 { 
+    grid-area: headerl;
+    display: flex;
+    height: 384px;
+}
+.item2 { 
+    grid-area: headerr; 
+    position: relative;
+    width: 240px;   
+    top: -13%;
+    transform: translateX(52px);
+}
+.item3 { 
+    grid-area: main; 
+    
+}
+.item4{
+    grid-area: empty; 
+}
+.item5 { 
+    grid-area: footerl; 
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 47px;
+}
+.right-t {
+    font-size: 158.3px;
+
+}
+.right-b{
+    color: #373737;
+    font-size: 43.17px;
+    position: absolute;
+    top: 22%;
+    transform: translateX(-17px);
+    transition: .1s;
+}
+.right-b:hover{
+    color: #E93656;
+}
+.grid-container {
+  display: grid;
+  background-color: #DDDDDD;
+  grid-template-areas:
+    'headerl header headerr'
+    'empty main main'
+    'empty footer footerl';
+}
+.l-side span{
+    font-family: 'Poppins-ExtraBold';
+    color: #0081FF;
+}
+
+.left-t{
+    display: inline-block;
+    font-family: 'Poppins-ExtraBold';
+}
+.left-b{
+    font-family: 'Montserrat-Regular';
+    font-size: 13px;
+}
+
+.r-side{
+    font-family: 'Poppins-ExtraBold';
+    
+}
+
+.info {
+    height: 292px;
+
+}
+.info span {
+    display: flex;
+    justify-content: space-between;
+}
+/* end grid */
+/* start headline */
+.satisfication div {
+        height: 6px;
+        max-width: 361px;
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 28px;
+        background-color: #E93656;
+}
+.persona-1 {
+    font-family: 'Regular';
+    font-size: 49.7px;
+}
+.persona-2 {
+    font-family: 'Bold';
+    font-size: 71px;
+}
+.persona-3 {
+    font-family: 'Regular';
+    font-size: 23.29px;
+}
