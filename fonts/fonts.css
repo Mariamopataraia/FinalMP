@@ -38,3 +38,7 @@
 	font-family: 'Roboto-Regular';
 	src: url('Roboto-Regular.ttf');
 }
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('Montserrat-Bold.ttf');
+}

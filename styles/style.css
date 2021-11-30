@@ -101,7 +101,12 @@ to {opacity: 1}
 .left-t{
     display: inline-block;
     font-family: 'Poppins-ExtraBold';
+    font-size: 40px;
 }
+.left-t:hover{
+    color: #E93656;
+}
+
 .left-b{
     font-family: 'Montserrat-Regular';
     font-size: 13px;
@@ -114,6 +119,7 @@ to {opacity: 1}
 
 .info {
     height: 292px;
+    padding-bottom: 40px;
 
 }
 .info span {
@@ -123,12 +129,12 @@ to {opacity: 1}
 /* end grid */
 /* start headline */
 .satisfication div {
-        height: 6px;
-        max-width: 361px;
-        width: 100%;
-        margin-top: 10px;
-        border-radius: 28px;
-        background-color: #E93656;
+    width: 330px;
+    height: 6px;
+    margin-top: 10px;
+    border-radius: 28px;
+    background-color: #E93656;
+    margin-bottom: 47px;
 }
 .persona-1 {
     font-family: 'Regular';
@@ -141,4 +147,76 @@ to {opacity: 1}
 .persona-3 {
     font-family: 'Regular';
     font-size: 23.29px;
+}
+.satisfication span {
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+}
+.pink {
+    color: #E93656;
+}
+/* end */
+/* start second page */
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display: inline-flex; */
+    flex-direction: row;
+}
+.whome {
+    max-width: 275px;
+    width: 100%;
+    direction: rtl;
+    padding-top: 83px;
+}
+.lorem {
+    font-family: 'Muli-Regular';
+    font-size: 15px;
+    color: #555555;
+    width: 334px;
+    padding-bottom: 60px;
+}
+.name {
+    font-size: 40px;
+    font-family: 'Bold';
+    padding-bottom: 6px;
+}
+.field {
+    color: #DAAE19;
+    font-size: 14px;
+    font-family: 'Muli';
+    padding-bottom: 33px;
+}
+
+.skilpercentage {
+    padding-top: 83px;
+}
+.hire {
+    background-color: #E93656;
+    font-family: 'Bold';
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 13px 40px 17px 50px;
+    border: none;
+    cursor: pointer;
+}
+.skilpercentage {
+    font-family: 'Bold';
+}
+.percolor {
+    color: #E93656;
+}
+.progress-icons div {
+    height: 100%;
+    margin-top: 10px;
+    background-color: #E93656;
+    opacity: -1;
+    transition: .6s;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
