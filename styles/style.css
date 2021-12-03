@@ -165,10 +165,19 @@ to {opacity: 1}
     flex-direction: row;
 }
 .whome {
-    max-width: 275px;
+    max-width: 250px;
     width: 100%;
     direction: rtl;
     padding-top: 83px;
+    align-items: center;
+    /* margin: 0;  */
+}
+.slide-area {
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+    /* margin: 0;  */
 }
 .lorem {
     font-family: 'Muli-Regular';
@@ -201,8 +210,9 @@ to {opacity: 1}
 
 .progresspercent{
     margin-left: 40px;
-    margin: 0;
-    
+    /* margin: 0;   */
+    max-width: 250px;
+    width: 100%;
 }
 .progressbar{
     width: 300px;
@@ -219,16 +229,16 @@ to {opacity: 1}
     margin-top: 10px;
     background-color:#E93656;
     opacity: -1;
-    transition: .7s;
+    transition: .5s;
     left: 0;
     margin: 0;
 }
 .barcont{
     margin-bottom: 10px;
-}
-h3{
-    font-family: 'GlacialIndifference-Bold';
+    font-family: 'Bold'; 
     font-size: 20px;
+}
+h3 {
     color: #555555;
 }
 h3 span{
@@ -241,3 +251,90 @@ h3 span{
         margin: 0 auto;
     }
 }
+/* END */
+/* My Contact DIV */
+.contact {
+    display: flex;
+    
+}
+.mycontact{
+    display: flex;
+    background-color: #131A36;
+    height: 210px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.circle{
+    height: 90px;
+    width: 90px;
+    background-color: #131A36;
+    border-radius: 100%;
+    display: inline-block;
+    border: 2px dashed red;
+    text-align: center;
+    padding: 23px;
+}
+.circle i {
+    color: #FFFFFF;
+
+}
+.circle:hover{
+    background-color: #E93656;
+    border: 2px solid #E93656;
+    cursor: pointer;
+}
+.mycontact h3 {
+    font-family: 'Bold';
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.mycontact span {
+    font-family: 'Muli';
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0;
+}   
+.phone {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    padding-left: 29px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-left: 29px;
+
+}
+.address h3 {
+    margin: 0;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-left: 29px;
+
+}
+.sectionone {
+    display: flex;
+    padding-right: 41px;
+    align-items: center;
+}
+.sectiontwo {
+    display: flex;
+    padding-left: 51px;
+    align-items: center;
+}
+.sectionthree {
+    display: flex;
+    padding-left: 51px;
+    align-items: center;
+}
+.sectionthree h3 {
+    margin: 0;
+}
+/* END of the section Mycontact */
+/* Start Section skills */
