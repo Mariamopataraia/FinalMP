@@ -337,4 +337,133 @@ h3 span{
     margin: 0;
 }
 /* END of the section Mycontact */
-/* Start Section skills */
+/* Start Section skills/services */
+.services {
+    margin: 200px 0 160px;
+    display: flex;
+    justify-content: center;
+
+}
+.flip-card-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.flip-card-before {
+    width: 285px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 10px 10px;
+}
+.flip-card-before:hover .flip-card-after,
+.flip-card-before:active .flip-card-after{
+    opacity: 1;
+}
+.flip-card-after {
+    opacity: 0;
+    position: absolute;
+    width: 285px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #15263E;
+}
+.flip-card-after h3 {
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Bold';
+    padding-top: 30px;
+}
+.flip-card-after p {
+    margin-top: 19px!important;
+    color: #ECECEC;
+    text-align: center!important;
+    width: 80%;
+    font-family: 'Muli';
+}
+.flip-card-before h3 {
+    padding-top: 30px;
+}
+/* END Skills/services */
+/* Start Feedback */
+.square {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    border: 2px solid #FFFFFF;
+    /* margin: 0; */
+    margin: 10px;
+}
+.circlefe {
+    height: 170px;
+    width: 170px;
+    background-color: transparent;
+    border: 2px dashed white;
+    padding: 15px;
+    align-items: center;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+.feedback {
+    background-image: url('/images/background.png');
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loremfe {
+    font-family: 'Roboto-Light';
+    font-size: 15px;
+    color: #555555;
+    max-width: 497px;
+    height: 78px;
+    display: flex;
+    margin-right: 51.16px;
+    direction: rtl;
+    align-items: center;
+}
+.com {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.qoutedot {
+    margin-left: 219px;
+    /* height: 170px; */
+    margin: 10px
+}
+.quoteone {
+    color: #E93656;
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    margin-top: 38px;
+}
+.qoutep {
+    font-family: 'Bold';
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+.circleimg {
+    height: 140px;
+    width: 140px;
+}
+.qoute {
+    margin-right: 50px;
+}
+.fas {
+    width: 39px;
+    height: 26px;
+
+}

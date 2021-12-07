@@ -49,3 +49,36 @@ window.addEventListener("scroll", () => {
 		hideProgress();
 	}
 })
+// END progress bar
+// Start feedback section
+
+var slideIndexOne = 1;
+showSlides(slideIndexOne);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndexOne += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndexOne = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName(".com");
+  var square = document.getElementsByClassName(".square");
+  if (n > slides.length) {slideIndexOne = 1}
+  if (n < 1) {slideIndexOne = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < square.length; i++) {
+	square[i].className = square[i].className.replace(" active", "");
+  }
+  slides[slideIndexOne-1].style.display = "block";
+  square[slideIndexOne-1].className += " active";
+}
+
+
