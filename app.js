@@ -112,5 +112,5 @@ function removeClass(element, name){
 	}
 	element.className = arr1.join(" ");
 }
-console.log (removeClass)
+// console.log (removeClass)
 
