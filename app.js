@@ -52,33 +52,65 @@ window.addEventListener("scroll", () => {
 // END progress bar
 // Start feedback section
 
-var slideIndexOne = 1;
-showSlides(slideIndexOne);
+var sliderDot = 1;
+showFeedback(sliderDot);
 
-// Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndexOne += n);
+	showFeedback(sliderDot += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndexOne = n);
+	showFeedback(sliderDot = n);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName(".com");
-  var square = document.getElementsByClassName(".square");
-  if (n > slides.length) {slideIndexOne = 1}
-  if (n < 1) {slideIndexOne = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+function showFeedback(n) {
+  let i;
+  let feedback = document.getElementsByClassName("com");
+  let feed = document.getElementsByClassName("feedslide");
+  if (n > feedback.length) {sliderDot = 1}
+  if (n < 1) {sliderDot = feedback.length}
+  for (i = 0; i < feedback.length; i++) {
+	feedback[i].style.display = "none";
   }
-  for (i = 0; i < square.length; i++) {
-	square[i].className = square[i].className.replace(" active", "");
-  }
-  slides[slideIndexOne-1].style.display = "block";
-  square[slideIndexOne-1].className += " active";
+  feedback[sliderDot - 1].style.display = "flex";
 }
 
+// END feedback section
+// START My Projects
+
+filterObjects("all");
+
+function filterObjects(c){
+	var z, i; 
+	z = document.getElementsByClassName("box");
+	if (c == "all") c = "";
+	for (i = 0; i < z.length; i++) {
+		removeClass (z[i], "show");
+		if (z[i].className.indexOf(c) > -1) addClass(z[i], "show");
+	}
+}
+
+function addClass(element, name){
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++){
+		if (arr1.indexOf(arr2[i]) == -1){
+			element.className += " " + arr2[i];
+		}
+	}
+}
+
+function removeClass(element, name){
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++){
+		while (arr1.indexOf(arr2[i]) > -1){
+			arr1.splice(arr1.indexOf(arr2[i]), 1);
+		}
+	}
+	element.className = arr1.join(" ");
+}
+console.log (removeClass)
 
