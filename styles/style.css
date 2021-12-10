@@ -595,3 +595,47 @@ h3 span{
 .box:active .backside{
     opacity: 1;
 }
+
+/* END Project */
+/* Start Articles */
+.title h2{
+    font-family: 'Bold';
+    font-size: 70px;
+    color: #2E2E2E;
+    text-align: center;
+}
+
+.title h6{
+    color: #2ED279;
+    font-family: 'Bold';
+    font-size: 13px;
+    margin-top: 170px;
+    text-align: center;
+}
+.blackarrow {
+    height: 123px;
+    width: 590px;
+    background-color: #15263E;
+}
+.blackarrow p{
+    color: #E93656;
+    font-size: 30px;
+    font-family: 'Bold';
+}
+.blank{
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+}
+.articleone:hover .blank {
+    display: block;
+  }
+.articletwo:hover .blank {
+display: block;
+}
+.articlethree:hover .blank {
+display: block;
+}
+.articleone, .articletwo, .articlethree {
+    display: flex;
+}
