@@ -418,7 +418,7 @@ h3 span{
     /* DONE */
 }
 .feedback {
-    background-image: url('/images/background.jpg');
+    background-image: url('../images/background.jpg');
     height: 570px;
     display: flex;
     justify-content: center;
@@ -713,6 +713,60 @@ h3 span{
     padding: -35px;
 }
 /* End ROsa Team */
+/* Start Contact US */
+.contactinfo {
+    background-image: url('../images/world-map.gif');
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    width: auto;
+    text-align: center;
+    margin-top: 195px;
+}
+.contactus-headline h3{
+    font-family: 'Jaapokki';
+    color: rgb(128, 16, 202);
+    font-size: 52px;
+    padding: 12px;
+    padding-top: 152px;
+}
+.contactus-headline span{
+    font-family: 'Roboto-Light';
+    color: rgb(63, 8, 189);
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: hsla(69, 88%, 47%, 0.3);;
+}
+.contactus-headline{
+    margin-bottom: 46px;
+}
+input[type=text], select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+}
+input[type=submit] {
+    background-color: transparent;
+    color: #E93656;
+    padding: 12px 20px;
+    border: 2px solid #E93656;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+input[type=submit]:hover {
+  background-color: #E93656;
+}
+textarea{
+    display: block;
+    width: 500px;
+}
+/* END Contact US */
 /* Start Footer */
 /* __________________ */
 .fRoca {
