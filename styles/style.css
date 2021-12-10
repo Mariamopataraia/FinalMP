@@ -535,6 +535,7 @@ h3 span{
     background-color: #15263E;
     color: white;
     width: 240px;
+    height: 401px;
     height: fit-content;
 }
 .show{
@@ -550,6 +551,8 @@ h3 span{
     background-color: #15263E;
     cursor: pointer;
     color: white;
+    /* height: 291px;
+    width: 110px; */
 }
 
 .prBtn:hover{
@@ -612,30 +615,97 @@ h3 span{
     margin-top: 170px;
     text-align: center;
 }
-.blackarrow {
-    height: 123px;
-    width: 590px;
-    background-color: #15263E;
-}
-.blackarrow p{
-    color: #E93656;
-    font-size: 30px;
-    font-family: 'Bold';
-}
-.blank{
-    background-color: yellow;
-    padding: 20px;
-    display: none;
-}
-.articleone:hover .blank {
-    display: block;
-  }
-.articletwo:hover .blank {
-display: block;
-}
-.articlethree:hover .blank {
-display: block;
-}
-.articleone, .articletwo, .articlethree {
+
+.articleone {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
     display: flex;
+}
+.infopartone {
+    width: 40%;
+    transition: 0.5s ease-in;
+}
+.picture {
+    float: right;
+    margin-right: 0;
+}
+.infopartone:hover {
+    color: red;
+    background-color: burlywood;
+    transform: translate(50%);
+    width: 100%;
+    /* display: flex; */
+}
+.blackarrow {
+    background-color: blueviolet;
+}
+.infopartone:hover .picture {
+    filter: blur(20px);
+}
+
+/* Start Footer */
+/* __________________ */
+.fRoca {
+    font-family: 'Poppins-ExtraBold';
+    font-size: 55.42px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+footer {
+    background-color: #282828;
+}
+.littledot {
+    font-family: 'Poppins-ExtraBold';
+    color: #0081FF;
+    font-size: 45.72px;
+}
+.littledot:hover {
+    color: #E93656;
+}
+.rocafooter {
+    justify-content: center;
+    text-align: center;    
+    height: 490px;
+
+}
+.fot-roca {
+    padding-top: 110.73px;
+}
+
+.loremi {
+    font-family: 'Roboto-Regular';
+    font-size: 17px;
+    color: #A5A5A5;
+    width: 613px;
+    /* padding-bottom: 60px; */
+    display: inline-block;
+    padding-top: 22.23px;
+    padding-bottom: 29px;
+}
+.footer-logo a {
+
+    color: darkorange;
+    justify-content: space-between;
+    size: 17px;
+}
+.terms p {
+    background-color: #171717;
+    font-family: 'Muli';
+    font-size: 15px;
+    color: #A0A8B7;
+    height: 82px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-logo i {
+    color: darkorange;
+    margin: 0;
+    font-weight: none;
+}
+.terms {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
