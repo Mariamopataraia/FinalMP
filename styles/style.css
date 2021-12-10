@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 .container {
-max-width: 1500px;
+max-width: 1400px;
 width: 100%;
 /* padding-top: 27px; */
 }
@@ -622,7 +622,16 @@ h3 span{
 }
 .articlecircle i{
     color: black;
-    padding-bottom: 54px;
+    padding: 20px 10px 54px 20px;
+    opacity: 1;
+
+}
+.articlecircle {
+    height: 170px;
+    width: 170px;
+    padding: 13px;
+    border-radius: 100%;
+    /* margin-right: 50px; */
 }
 .articlorem {
     padding: 3px;
@@ -656,13 +665,7 @@ h3 span{
     /* float: right; */
     margin: 0;
 }
-/* .infopartone:hover {
-    color: red;
-    background-color: burlywood;
-    transform: translate(50%);
-    width: 100%;
-    display: flex;
-} */
+
 .blackarrow {
     background-color: blueviolet;
     width: 123px;
