@@ -606,6 +606,7 @@ h3 span{
     font-size: 70px;
     color: #2E2E2E;
     text-align: center;
+    padding-bottom: 79px;
 }
 
 .title h6{
@@ -615,33 +616,80 @@ h3 span{
     margin-top: 170px;
     text-align: center;
 }
-
+.articlecircle i{
+    color: black;
+    padding-bottom: 54px;
+}
+.articlorem {
+    padding: 3px;
+    font-family: 'Muli';
+    direction: rtl;
+}
 .articleone {
     max-width: 1200px;
     width: 100%;
+    height: 300px;
     margin: auto;
     display: flex;
 }
 .infopartone {
     width: 40%;
     transition: 0.5s ease-in;
+    margin: 0;
+}
+.infopartone p {
+    color: #888888;
+    font-size: 14px;
+    font-family: 'Muli';
+}
+.infopartone h3 {
+    color: #161616;
+    font-size: 40px;
+    font-family: 'Bold';
+    padding-bottom: 23px;
 }
 .picture {
-    float: right;
-    margin-right: 0;
+    /* float: right; */
+    margin: 0;
 }
-.infopartone:hover {
+/* .infopartone:hover {
     color: red;
     background-color: burlywood;
     transform: translate(50%);
     width: 100%;
-    /* display: flex; */
-}
+    display: flex;
+} */
 .blackarrow {
     background-color: blueviolet;
+    width: 123px;
+    margin: 0;
+    position: relative;
+}
+.blackarrow h4 {
+    font-family: 'Bold';
+    font-size: 30px;
+    letter-spacing: 2px;
+    /* background: #369; */
+    color: #fff;
+    padding: 20px -5px;
+    /* margin: 0 0 10px 0; */
+    /* line-height: 24px; */
+    /* transform-origin: 0 0; */
+    transform: rotate(-90deg);
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: 115%;
+    letter-spacing: 0.9px;
 }
 .infopartone:hover .picture {
     filter: blur(20px);
+}
+.middle {
+  display: flex;
+  flex-direction: row-reverse;
 }
 /* END Articles */
 /* Start ROSA team */
@@ -718,7 +766,7 @@ h3 span{
     background-image: url('../images/world-map.gif');
     background-color: cadetblue;
     background-repeat: no-repeat;
-    max-width: 1140px;
+    /* max-width: 1140px; */
     width: auto;
     text-align: center;
     margin-top: 195px;
@@ -820,6 +868,8 @@ footer {
     height: 82px;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .footer-logo i {
