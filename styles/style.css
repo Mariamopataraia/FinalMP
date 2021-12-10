@@ -170,6 +170,7 @@ to {opacity: 1}
     direction: rtl;
     padding-top: 83px;
     align-items: center;
+    margin-right: 17px;
     /* margin: 0;  */
 }
 .slide-area {
@@ -177,6 +178,8 @@ to {opacity: 1}
     justify-content: center;
     max-width: 250px;
     width: 100%;
+    margin-top: 135px;
+
     /* margin: 0;  */
 }
 .lorem {
@@ -217,6 +220,7 @@ to {opacity: 1}
 .progressbar{
     width: 300px;
     /* margin: 0; */
+    padding-left: 70px;
 }
 .progressline{
     width: 100%;
