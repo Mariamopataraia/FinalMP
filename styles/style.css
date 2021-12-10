@@ -643,7 +643,76 @@ h3 span{
 .infopartone:hover .picture {
     filter: blur(20px);
 }
-
+/* END Articles */
+/* Start ROSA team */
+.rosa-title span {
+    color: #2ED279;
+    font-size: 14px;
+    font-family: "Bold";
+}
+.rosa-subTitle h2 {
+    color: #262526;
+    font-size: 70px;
+    font-family: "Bold";
+    text-align: center;
+}
+.rosa-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 57px;
+    margin-top: 96px;
+}
+.rosa-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rosa-partner {
+    background-color: #15263E;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: all 1s ease;
+}
+.rosa-maintitle {
+    visibility: hidden;
+    text-align: center;
+}
+.rosa-maintitle h3 {
+    color: #161616;
+    font-family: "Poppins-SemiBold";
+    font-size: 16px;
+}
+.rosa-maintitle span {
+    color: #626262;
+    font-family: "Roboto-Light";
+    font-size: 13px;
+}
+.rosa-partner:hover,
+.rosa-partner:active {
+    transform: scale(1.5, 1);
+    border: 3px solid #E93656;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+}
+.rosa-partner:hover .rosa-maintitle,
+.rosa-partner:active .rosa-maintitle {
+    visibility: visible;
+    z-index: 1;
+}
+.rosa-partner i {
+    color: white;
+    position: absolute;
+    align-items: center;
+    padding: -35px;
+}
+/* End ROsa Team */
 /* Start Footer */
 /* __________________ */
 .fRoca {
