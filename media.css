@@ -109,23 +109,26 @@
         color: tomato;
     }
     .rosa-subTitle h2 {
-        font-size: 40px;
         justify-content: center;
         text-align: center;
         align-items: center;
+        font-size: 10px;
     }
     .rosa-subTitle h2:hover {
         color: tomato;
     }
-    .rosa-partner {
-    display: flex;
-    flex-wrap: wrap
+    .rosa-partner:hover,
+    .rosa-partner:active {
+        width: auto;
+        height: auto;
+    }
+    .rosa-maintitle span, .rosa-maintitle h3 {
+        font-size: 9px;
     }
     .contactus-content {
         width: auto;
     }
     .loremi {
-
         flex: wrap;
         justify-content: center;
         text-align: center;
@@ -157,8 +160,130 @@
     }
 } */
 /* for desktop 980px	 */
-/* @media screen and (max-width: 990px) {
-    .body {
-      background-color: rgb(247, 212, 115);
+@media screen and (max-width: 990px) {
+    .progressbar, .partone span, .parttwo span, .partthree span, .flip-card-before i, .loremfe, .articleone h4, .blackarrow{
+        display: none;
     }
-} */
+    .body {
+        max-width: 990px;
+    }
+    .grid-container, .whome, .name, .field, .lorem, .hire {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .slide-area, .aboutme, .slide-item {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .mycontact {
+        display: flex;
+        width: auto;
+        flex: 25%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .flip-card-before h3:hover{
+        color: tomato;
+    }
+    .headline:hover {
+        color: tomato;
+    }
+    .projectBar{
+        max-width: 100%;
+        height: auto;
+        flex-direction: row;
+        display: flex;
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+    .projectcontent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .box {
+        padding: 0;
+        /* flex: 50%; */
+        justify-content: center;
+        align-items: center;
+    }
+    .projectlist {
+        display: block;
+    }
+    .box:hover {
+        color: tomato;
+    }
+    .rosa-subTitle h2 {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 70px;
+    }
+    .rosa-subTitle h2:hover {
+        color: tomato;
+    }
+    .title h5 {
+        font-size: 40px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .title h2:hover{
+        color: tomato;
+    }
+    .articleone {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .infopartone, .picture{
+        width: 50%;
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 10px;
+    }
+    .picture{
+        height: 50px;
+        width: auto;
+    }
+    .articleone picture {
+        width: 50px;
+    }
+    .articles h2, .articles h3 {
+        font-size: 30px;
+    }
+    .articlecicle p {
+        font-size: 15px;
+    }
+    .articlecicle span, .articlecicle{
+        font-size: 12px;
+        display: inline;
+        height: auto;
+    }
+   
+}
