@@ -191,27 +191,8 @@
     }
 }
 
-/* For ipad 750px	 */
-/* @media screen and (max-width: 750px) {
-    .item1, .item2, .item4, .item5 {
-        display: none;
-    }
-    .projects {
-        display: none;
-    }
-    .aboutme {
-        display: none;
-    }
-    .feedback {
-        display: none;
-    }
-    .team {
-        display: none;
-    }
-    .contactinfo {
-        display: none;
-    }
-} */
+
+
 /* for desktop 980px	 */
 @media screen and (max-width: 990px) {
     .progressbar, .sectiontwo, .partone span, .parttwo span, .partthree span, .r-side, .flip-card-before i, .loremfe, .articleone h4, .blackarrow{
@@ -269,12 +250,18 @@
         color: tomato;
     }
     .projectBar{
-        max-width: 100%;
+        /* max-width: 100%;
         height: auto;
         flex-direction: row;
         display: flex;
         font-size: 10px;
+        flex-wrap: wrap; */
+        display: flex;
         flex-wrap: wrap;
+        width: 608px;
+        height: auto;
+        flex-direction: row-reverse;
+        font-size: 10px;
     }
     .projectcontent {
         display: flex;
@@ -350,5 +337,33 @@
         display: inline;
         height: auto;
     }
+    .rosa-head {
+        padding: 5px;
+        margin: 0px;
+    }
+    .rosa-partner{ 
+        margin: 10px;
+    }
+    .contactus-content {
+        width: auto;
+    }
+    .contactinfo {
+        margin-top: 64px;
+        margin: 0;
+    }
+    .textarea {
+        width: 400px;
+        margin: 0px;
+    }
+    .input[type=text] {
+        width: 400px;
+    }
    
+}
+
+/* ........................ */
+@media screen and (max-width: px) {
+    .item1, .item2, .item4, .item5 {
+        display: none;
+    }
 }
