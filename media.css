@@ -161,7 +161,7 @@
 } */
 /* for desktop 980px	 */
 @media screen and (max-width: 990px) {
-    .progressbar, .partone span, .parttwo span, .partthree span, .flip-card-before i, .loremfe, .articleone h4, .blackarrow{
+    .progressbar, .partone span, .parttwo span, .partthree span, .r-side, .flip-card-before i, .loremfe, .articleone h4, .blackarrow{
         display: none;
     }
     .body {
@@ -177,6 +177,16 @@
         align-items: center;
         text-align: center;
         margin: auto;
+    }
+    .grid-container {
+        display: flex;
+        height: 700px;
+        flex-direction: row;
+    }
+    .item3, .item1 {
+        flex: wrap;
+        display: flex;
+        flex-direction: column;
     }
     .slide-area, .aboutme, .slide-item {
         width: 100%;
