@@ -7,7 +7,7 @@
 
 /* For Mobile 540px - SMall */
 @media screen and (max-width: 560px) {
-    .item1, .item2, .item4, .progresspercent, .articles, .backside, .sectiontwo, .sectionone, .loremfe, .slideimg, .circlefe, .flip-card-before i, .flip-card-after h3, .flip-card-after{
+    .item2, .item4, .progresspercent, .articles, .backside, .sectiontwo, .sectionone, .loremfe, .slideimg, .circlefe, .flip-card-before i, .flip-card-after h3, .flip-card-after{
         float: none;
         display: none;
     }
@@ -21,6 +21,16 @@
         align-items: center;
         text-align: center;
         margin: auto;
+    }
+    .item1{
+        margin-bottom: -20px;
+        padding-bottom: 0;
+        display: flex;
+    }
+    .item3 {
+        margin-top: 0;
+        padding-top: 0;
+        display: block;
     }
     .slide-area, .aboutme, .slide-item{
         width: 100%;
