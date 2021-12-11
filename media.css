@@ -1,33 +1,93 @@
 .container {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     width: 100%;
     margin: 0;
     padding: 0 15px;
 }
-@media only screen and (max-width: 1400px) {
 
-}
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
-    [class*="col-"] {
-      width: 100%;
+/* For Mobile 540px - SMall */
+@media screen and (max-width: 560px) {
+    .item1, .item2, .item4, .progresspercent, .sectiontwo, .sectionone, .loremfe, .qoute {
+        float: none;
+        display: none;
     }
+    .grid-container, .whome {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .slide-area, .aboutme, .slide-item{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .hire {
+        margin-bottom: 20px;
+        justify-content: center;  
+    }
+    .sectionthree {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .flip-card-before {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+        flex-direction: column;
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slideimg, .qoutedot {
+        flex-wrap: wrap;
+        flex: 25%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-shrink: 1;
+    }
+
 }
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 1500px) {
+
+/* For ipad 750px	 */
+/* @media screen and (max-width: 750px) {
+    .item1, .item2, .item4, .item5 {
+        display: none;
+    }
+    .projects {
+        display: none;
+    }
+    .aboutme {
+        display: none;
+    }
+    .feedback {
+        display: none;
+    }
+    .team {
+        display: none;
+    }
+    .contactinfo {
+        display: none;
+    }
+} */
+/* for desktop 980px	 */
+/* @media screen and (max-width: 980px) {
     .body {
       background-color: rgb(247, 212, 115);
     }
-}
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .item3, .item5, .item2 {
-        float: none;
-        display: none;
-
-    }
-}
-/* For Mobile 540px - SMall */
-/* For ipad 720px/ 768px	 */
-/* for desktop 1140px	 */
+} */
