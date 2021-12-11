@@ -539,7 +539,7 @@ h3 span{
     background-color: #15263E;
     color: white;
     width: 240px;
-    height: 401px;
+    /* height: 401px; */
     height: fit-content;
 }
 .show{

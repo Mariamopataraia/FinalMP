@@ -7,17 +7,19 @@
 
 /* For Mobile 540px - SMall */
 @media screen and (max-width: 560px) {
-    .item1, .item2, .item4, .progresspercent, .sectiontwo, .sectionone, .loremfe, .qoute {
+    .item1, .item2, .item4, .progresspercent, .articles, .backside, .sectiontwo, .sectionone, .loremfe, .slideimg, .circlefe, .flip-card-before i, .flip-card-after h3, .flip-card-after{
         float: none;
         display: none;
     }
-    .grid-container, .whome {
+    .grid-container, .whome, .name, .field, .lorem, .hire {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         flex: 25%;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        text-align: center;
         margin: auto;
     }
     .slide-area, .aboutme, .slide-item{
@@ -33,35 +35,104 @@
         margin-bottom: 20px;
         justify-content: center;  
     }
-    .sectionthree {
-        width: 100%;
+    .phone, .address {
+        width: 50%;
         text-align: center;
         display: flex;
         flex-wrap: wrap;
         flex: 25%;
         flex-direction: column;
         justify-content: center;
+        height: 25px;
     }
-    .flip-card-before {
-        text-align: center;
+    .flip-card-before h3, .flip-card-before {
         display: flex;
-        flex-wrap: wrap;
-        flex: 50%;
+        flex: 100%;
         flex-direction: column;
         width: 50%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 100px;
+    }
+    .flip-card-head, .services, .flip-card-head {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .flip-card-before h3:hover{
+        color: tomato;
+    }
+    .quoteone {
+        flex-shrink: 5;
+        flex-wrap: wrap-reverse;
+        display: block;
+    }
+    .feedback {
+        height: 250px;
+    }
+    .feedslide {
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: row-reverse wrap-reverse;
+    }
+    .headline {
+        font-size: 40px;
+    }
+    .headline:hover {
+        color: tomato;
+    }
+    .projectBar{
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        flex-direction: row-reverse;
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+    .projectcontent {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .slideimg, .qoutedot {
-        flex-wrap: wrap;
-        flex: 25%;
-        flex-direction: column;
+    .box {
+        padding: 20px;
+        flex: 50%;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        flex-shrink: 1;
     }
+    .projectlist {
+        display: block;
+    }
+    .box:hover {
+        color: tomato;
+    }
+    .rosa-subTitle h2 {
+        font-size: 40px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .rosa-subTitle h2:hover {
+        color: tomato;
+    }
+    .rosa-partner {
+    display: flex;
+    flex-wrap: wrap
+    }
+    .contactus-content {
+        width: auto;
+    }
+    .loremi {
 
+        flex: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        width: auto;
+    }
 }
 
 /* For ipad 750px	 */
@@ -86,7 +157,7 @@
     }
 } */
 /* for desktop 980px	 */
-/* @media screen and (max-width: 980px) {
+/* @media screen and (max-width: 990px) {
     .body {
       background-color: rgb(247, 212, 115);
     }
