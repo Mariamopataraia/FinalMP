@@ -366,6 +366,9 @@ h3 span{
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 0 0 10px 10px;
 }
+.flip-card-before i{
+    color: rgb(255, 71, 117);
+}
 .flip-card-before:hover .flip-card-after,
 .flip-card-before:active .flip-card-after{
     opacity: 1;
@@ -486,7 +489,7 @@ h3 span{
     /* DONE */
 }
 .feedslide:hover {
-    border: 2px solid #E93656;
+    border: 2px solid #36dde9;
 }
 /* END Feedback */
 /* Start My Projects */
@@ -594,7 +597,7 @@ h3 span{
     padding: 105px 0 17px;
 }
 .backside work ideas i:hover{
-    color: #E93656;
+    color: #4cb7e9;
 }
 
 
@@ -751,7 +754,7 @@ h3 span{
 .rosa-partner:hover,
 .rosa-partner:active {
     transform: scale(1.5, 1);
-    border: 3px solid #E93656;
+    border: 3px solid #366fe9;
     background-color: white;
     width: 140px;
     height: 140px;
@@ -806,9 +809,9 @@ input[type=text], select, textarea {
 }
 input[type=submit] {
     background-color: transparent;
-    color: #E93656;
+    color: #e22a09;
     padding: 12px 20px;
-    border: 2px solid #E93656;
+    border: 2px solid #e99c36;
     border-radius: 2px;
     cursor: pointer;
     margin-bottom: 120px;
@@ -862,10 +865,10 @@ footer {
     padding-bottom: 29px;
 }
 .footer-logo a {
-
-    color: darkorange;
+    color: rgb(45, 165, 235);
     justify-content: space-between;
     size: 17px;
+    padding: 7px;
 }
 .terms p {
     background-color: #171717;
@@ -880,7 +883,7 @@ footer {
 }
 
 .footer-logo i {
-    color: darkorange;
+    color: rgb(0, 183, 255);
     margin: 0;
     font-weight: none;
 }
